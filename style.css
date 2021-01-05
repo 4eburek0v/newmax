@@ -1,0 +1,253 @@
+@font-face {
+    font-family: AvenirNextCyr;
+    src: url(fonts/AvenirNextCyr.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #22252A;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.header {
+    font-family: 'AvenirNextCyr-Regular';
+    display: flex;
+    justify-content: space-around;
+    left: 0%;
+    top: 0%;
+
+    background: #292C32;
+    /* padding: 24px; */
+}
+
+.header .logo, .user-log {
+    padding: 22px;
+}
+
+
+.langbox, .search-box, .themes {
+    padding: 24px;
+}
+
+
+.header .logo {
+
+    display: flex;
+}
+
+.header .logo svg {
+    margin-right: 8px;
+}
+
+.header .logo p {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+    line-height: 24px;
+}
+
+.header .logo #logo_text_green {
+    color: #03B898;
+}
+
+.header .langbox .lang_link {
+    font-family: 'Nunito Sans', sans-serif;
+    margin-left: 20px;
+    top: 27px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #A6A7A9;
+}
+
+.header .langbox .lang_link_active {
+    margin-left: 20px;
+    top: 27px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #03B898;
+}
+
+.header .search-box #search {
+    margin-left: 12.61px;
+    font-size: 14px;
+    background: transparent;
+    outline: none;
+    border: none;
+}
+
+.header .themes svg {
+    margin-left: 21px;
+}
+
+.header .user-log {
+    display: flex;
+}
+
+.header .user-log .userlink {
+    font-family: 'Nunito Sans', sans-serif;
+    text-decoration: none;
+}
+
+.header .user-log  #login_link {
+    text-align: center;
+    padding-top: 7px;
+    font-size: 14px;
+    font-weight: 450;
+    line-height: 17.15px;
+    border-radius: 4px;
+    background: #00C68E;
+    width: 90px;
+    height: 30px;
+    color: #fff;
+}
+
+.header .user-log #signup_link {
+    margin-left: 15px;
+    text-align: center;
+    padding-top: 7px;
+    font-size: 14px;
+    font-weight: 450;
+    line-height: 17.15px;
+    border-radius: 4px;
+    width: 180px;
+    border: 1px solid #51545B;
+    color: #E2E2E3;
+
+}
+
+.content {
+    position: absolute;
+    width: 1280px;
+    left: 320px;
+}
+
+.content .hot_news_box {
+    margin: 40px 0 0 0;
+    display: flex;
+}
+
+.content .hot_news {
+    position: relative;
+    margin-left: 40px; 
+    width: 400px;
+    height: 100px;
+}
+
+.content .hot_news .hot_news_details{
+    font-family: 'Nunito Sans', sans-serif;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 54px;
+    bottom: 12px;
+    left: 12px;
+    color: #fff;
+}
+
+.content .pointed::before{
+    content: '';
+    position: absolute;
+    right: -7%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 3px;
+    height: 35px;
+    background: #383A40;
+    border-radius: 1.5px;
+}
+
+.content .news_box {
+    height: 100%;
+    position: relative;
+    margin: 52px 0 0 0;
+}
+
+.content .news_box .left_tab {
+    width: 260px;
+    min-height: 1524px;
+    margin-left: 40px;
+}
+
+.content .news_box .left_tab .covid_block, .weather_block , .exchange_rates_block, .any_block{
+    margin-bottom: 30px;
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-left: 25px;
+    background: #383A40 40%;
+    border-radius: 8px;
+}
+
+
+
+.content .news_box .left_tab .left_tab_block_header {
+    display: flex;
+    position: relative;
+}
+
+.content .news_box .left_tab .left_tab_block {
+    position: relative;
+}
+
+.content .news_box .left_tab .left_tab_block_header .left_tab_block_title {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0em;
+    margin-left: 12px;
+    color: #E2E2E3;
+
+
+}
+
+.content .news_box .left_tab .left_tab_block_subtitle {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    color: #A6A7A9;
+}
+
+.content .news_box .left_tab .covid_block , .weather_block , .any_block{
+    width: 260px;
+    height: 274px;
+}
+
+.content .news_box .left_tab .exchange_rates_block {
+    height: 378px;
+}
+
+.content .news_box .left_tab .left_tab_block_header #main_icon {
+    margin-top: 1px;
+}
+
+.content .news_box .left_tab .left_tab_block_header #icon {
+    position: absolute;
+    margin-top: 10px;
+    right: 20px;
+}
+
+.content .news_box .left_tab .arrow_icon {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 10px;
+}
+
+
+
+footer {
+   position: absolute;
+    height: 130px;
+    width: 100%;
+    padding-top: 39px;
+    bottom: -100%;
+    background: #292C32;
+}
