@@ -1,0 +1,52 @@
+@media screen and (max-width:1720px) {
+    .content {
+        position: absolute;
+        width: 1280px;
+        left: 0px;
+    }
+
+    .footer .social_media_links {
+        position: absolute;
+        left: 150px;
+        top: 35px;
+    }
+
+    .footer .aditional_links_group {
+        position: absolute;
+        left: 450px;
+        top: 54px;
+    }
+    
+    .footer .footer_langbox {
+        position: absolute;
+        left: 1100px;
+        top: 53px;
+    }
+    .footer .watermark {
+    position: absolute;
+    top: 104px;
+    left: 590px;
+    color: rgba(123, 128, 143, 1);
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    }
+
+    .login_container {
+        position: absolute;
+        left: 254px;
+        top: 150px;
+    }
+
+    .reg_container {
+        position: absolute;
+        left: 254px;
+        top: 150px;
+    }
+    
+
+}

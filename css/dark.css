@@ -1,0 +1,1153 @@
+@font-face {
+    font-family: AvenirNextCyr;
+    src: url(fonts/AvenirNextCyr.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #22252A;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.main_page_mask {
+    width: 100%;
+}
+
+.header {
+    font-family: 'AvenirNextCyr-Regular';
+    display: flex;
+    justify-content: space-around;
+    left: 0%;
+    top: 0%;
+
+    background: #292C32;
+    /* padding: 24px; */
+}
+
+.header .logo, .user-log {
+    padding: 22px;
+}
+
+
+.langbox, .search-box, .themes {
+    padding: 24px;
+}
+
+
+.header .logo {
+
+    display: flex;
+}
+
+.header .logo svg {
+    margin-right: 8px;
+}
+
+.header .logo p {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+    line-height: 24px;
+}
+
+.header .logo #logo_text_green {
+    color: #03B898;
+}
+
+.header .langbox .lang_link {
+    font-family: 'Nunito Sans', sans-serif;
+    margin-left: 20px;
+    top: 27px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #A6A7A9;
+}
+
+.header .langbox .lang_link_active {
+    margin-left: 20px;
+    top: 27px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #03B898;
+}
+
+.header .search-box #search {
+    margin-left: 12.61px;
+    font-size: 14px;
+    background: transparent;
+    outline: none;
+    border: none;
+    color: #E2E2E3;
+}
+
+.header .themes svg {
+    margin-left: 21px;
+}
+
+.header .user-log {
+    display: flex;
+}
+
+.header .user-log .userlink {
+    font-family: 'Nunito Sans', sans-serif;
+    text-decoration: none;
+}
+
+.header .user-log  #login_link {
+    text-align: center;
+    padding-top: 7px;
+    font-size: 14px;
+    font-weight: 450;
+    line-height: 17.15px;
+    border-radius: 4px;
+    background: #00C68E;
+    width: 90px;
+    height: 30px;
+    color: #fff;
+}
+
+.header .user-log #signup_link {
+    margin-left: 15px;
+    text-align: center;
+    padding-top: 7px;
+    font-size: 14px;
+    font-weight: 450;
+    line-height: 17.15px;
+    border-radius: 4px;
+    width: 180px;
+    border: 1px solid #51545B;
+    color: #E2E2E3;
+
+}
+
+.content {
+    position: absolute;
+    width: 1280px;
+    left: 320px;
+}
+
+.content .hot_news_box {
+    margin: 40px 0 0 0;
+    display: flex;
+}
+
+.content .hot_news {
+    position: relative;
+    margin-left: 40px; 
+    width: 400px;
+    height: 100px;
+}
+
+.content .hot_news img {
+    border-radius: 8px;
+}
+
+.content .hot_news .hot_news_details{
+    font-family: 'Nunito Sans', sans-serif;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    padding-top: 50px;
+    padding-bottom: 12px;
+    padding-left: 15px;
+    padding-right: 12px;
+    left: 0px;
+    color: #fff;
+    border-radius: 8px;
+    background:linear-gradient(to top, #22252ab8, #7b808f17);
+}
+
+.content .pointed::before{
+    content: '';
+    position: absolute;
+    right: -22px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 3px;
+    height: 35px;
+    background: #383A40;
+    border-radius: 1.5px;
+}
+
+.content .news_box {
+    display: flex;
+    height: 100%;
+    position: relative;
+    margin: 52px 0 0 0;
+}
+
+.content .news_box .left_tab {
+    width: 260px;
+    min-height: 1524px;
+    margin-left: 40px;
+}
+
+.content .news_box .left_tab .covid_block, .weather_block , .exchange_rates_block, .any_block{
+    margin-bottom: 30px;
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-left: 25px;
+    background: #383A40 40%;
+    backdrop-filter: blur(30px);
+    border-radius: 8px;
+}
+
+
+
+.content .news_box .left_tab .left_tab_block_header {
+    display: flex;
+    position: relative;
+}
+
+.content .news_box .left_tab .left_tab_block {
+    position: relative;
+}
+
+.content .news_box .left_tab .left_tab_block .left_tab_block_content {
+    margin-top: 19px;
+    display: flex;
+}
+
+.content .news_box .left_tab .left_tab_block .left_tab_block_content .left_content_right {
+    width: 50%;
+}
+
+.content .news_box .left_tab .left_tab_block .left_tab_block_content .left_content_left {
+    width: 50%;
+}
+
+.content .news_box .left_tab .left_tab_block .left_tab_block_content .main_left_text {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(226, 226, 227, 1);
+    padding-top: 32px;
+}
+
+
+.content .news_box .left_tab .left_tab_block .left_tab_block_content .main_right_text {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(226, 226, 227, 1);
+    margin-top: 17px;
+    margin-left: 35px;
+}
+
+.content .news_box .left_tab .left_tab_block .left_tab_block_content .sub_right_text {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(166, 167, 169, 1);
+    margin-left: 35px;
+} 
+
+.weather_block .left_content_right svg {
+    position: absolute;
+    margin-top: 17px;
+}
+
+.content .news_box .left_tab .left_tab_block_header .left_tab_block_title {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0em;
+    margin-left: 12px;
+    color: #E2E2E3;
+
+
+}
+
+.content .news_box .left_tab .left_tab_block_subtitle {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    color: #A6A7A9;
+}
+
+.content .news_box .left_tab .covid_block , .weather_block , .any_block {
+    background:rgba(56, 58, 64, 0.4);
+    width: 260px;
+    height: 274px;
+}
+
+.content .news_box .left_tab .exchange_rates_block {
+    background:rgba(56, 58, 64, 0.4);
+    height: 378px;
+}
+
+.content .news_box .left_tab .left_tab_block_header #main_icon {
+    margin-top: 1px;
+}
+
+.content .news_box .left_tab .left_tab_block_header #icon {
+    position: absolute;
+    margin-top: 10px;
+    right: 20px;
+}
+
+.content .news_box .left_tab .arrow_icon {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 10px;
+}
+
+.content .news_box .main_news {
+    position: absolute;
+    width: 980px;
+    height: 2165px;
+    left: 340px;
+    background: rgba(56, 58, 64, 0.4);
+    backdrop-filter: blur(30px);
+    border-radius: 8px;
+}
+
+.content .news_box .main_news .news_menu {
+    display: flex;
+} 
+
+.content .news_box .main_news .news_menu .stats_btn {
+    display: flex;
+    position: absolute;
+    text-align: center;
+    width: 190px;
+    height: 34px;
+    top: 20px;
+    left: 624px;
+    background: #383A40;
+
+    box-shadow: 0px 0px 1px rgba(34, 37, 42, 0.12), 0px 4px 6px rgba(12, 15, 19, 0.06);
+    border-radius: 4px;
+}
+
+.content .news_box .main_news .news_menu .stats_btn a{
+    position: absolute;
+    top: 8px;
+    left: 53px;
+    text-decoration: none;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(226, 226, 227, 1);
+}
+
+.content .news_box .main_news .news_menu .stats_btn svg{
+    position: absolute;
+    top: 8px;
+    left: 22px;
+    margin-right: 5px;
+}
+
+.content .news_box .main_news .news_menu .relax_btn {
+    display: flex;
+    position: absolute;
+    text-align: center;
+    width: 100px;
+    height: 34px;
+    top: 20px;
+    left: 840px;
+    background: rgba(0, 198, 142, 1);
+
+    box-shadow: 0px 4px 15px rgba(0, 198, 142, 0.15);
+    border-radius: 4px;
+}
+
+.content .news_box .main_news .news_menu .relax_btn a {
+    position: absolute;
+    top: 8px;
+    left: 45px;
+    text-decoration: none;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.content .news_box .main_news .news_menu .relax_btn svg {
+    position: absolute;
+    top: 8px;
+    left: 19px;
+    margin-right: 5px;
+}
+
+.content .news_box .main_news .news_group {
+    display: flex;
+    margin-left: 40px;
+}
+
+.content .news_box .main_news .news_block {
+    margin-top: 79px;
+    margin-right: 24px;
+    width: 284px;
+    height: 263px;
+}
+
+.content .news_box .main_news .news_block img {
+    border-radius: 4px;
+}
+
+.content .news_box .main_news .news_block .news_title .news_title_text {
+    margin-top: 15px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #E2E2E3;
+}
+
+.content .news_box .main_news .news_block .news_title .news_subtitle_text {
+    margin-top: 5px;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #A6A7A9;
+}
+
+.content .news_box .main_news .news_block .marcks_group {
+    margin-top: 16px;
+    display: flex;
+}
+
+.content .news_box .main_news .news_block .marcks_group .group {
+    display: flex;
+}
+
+.content .news_box .main_news .news_block .marcks_group p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #A6A7A9;
+    margin-right: 5px;
+}
+
+.content .news_box .main_news .news_block .marcks_group svg {
+    margin-right: 16px;
+}
+
+.content .news_box .main_news .news_block .marcks_group .group .up,.down {
+    position: relative;
+    width: 80px;
+    height: 22px;
+    margin-bottom: 10px;
+    margin-left: 8px;
+    border-radius: 4px;
+}
+
+.content .news_box .main_news .news_block .marcks_group .group .mark_arrow{
+    left: 50%;
+}
+
+.content .news_box .main_news .news_block .marcks_group .up {
+    background: rgba(3, 184, 152, 0.1);
+}
+
+.content .news_box .main_news .news_block .marcks_group .up svg {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.content .news_box .main_news .news_block .marcks_group .down {
+    background: rgba(243, 56, 112, 0.1);
+}
+
+.content .news_box .main_news .news_block .marcks_group .down svg {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+/*FOOTER*/
+
+.footer {
+    display: flex;
+    top: 2445px;
+    position: absolute;
+    margin-top: 50px;
+    height: 130px;
+    width: 100%;
+    background: #292C32;
+}
+
+.footer .social_media_links {
+    position: absolute;
+    left: 400px;
+    top: 35px;
+}
+
+.footer .social_media_links p {
+    color: rgba(166, 167, 169, 1);
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    margin-bottom: 9px;
+}
+
+.footer .social_media_links .footer_social_link {
+    text-decoration: none;
+    margin-right: 22px;
+}
+
+.footer .aditional_links_group {
+    position: absolute;
+    left: 702px;
+    top: 54px;
+}
+
+.footer .aditional_links_group .footer_aditional_link {
+    color: rgba(166, 167, 169, 1);
+    text-decoration: none;
+    margin-right: 30px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.footer .footer_langbox {
+    position: absolute;
+    left: 1460px;
+    top: 53px;
+}
+
+.footer .footer_langbox .lang_link {
+    font-family: 'Nunito Sans', sans-serif;
+    margin-left: 20px;
+    top: 27px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #A6A7A9;
+}
+
+.footer .footer_langbox .lang_link_active {
+    margin-left: 20px;
+    top: 27px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #03B898;
+}
+
+.footer .watermark {
+    position: absolute;
+    top: 104px;
+    left: 879px;
+    color: rgba(123, 128, 143, 1);
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+
+                  /* --------------------------LOGIN--------------------------------- */
+
+.login_container {
+    position: absolute;
+    left: 508px;
+    top: 150px;
+}
+
+.login_container .logBx{
+    overflow: hidden;
+    width: 900px;
+    height: 560px;
+    border-radius: 8px;
+    background: rgba(56, 58, 64, 0.4);
+    backdrop-filter: blur(30px);
+}
+
+.login_container .logBx .login_title {
+    position: absolute;
+    top: 73px;
+    left: 150px;
+}
+
+.login_container .logBx .login_title h1 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.login_container .logBx .logBx_form #login_subtitle {
+    position: absolute;
+    margin-top: 206px;
+    left: 200px;
+    width: 181px;
+
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(166, 167, 169, 1);
+}
+
+.login_container .logBx .login_title .log_megia_links {
+    position: absolute;
+    left: 86px;
+}
+
+.login_container .logBx .logBx_form .input_group {
+    position: absolute;
+    top: 254px;
+    left: 87px;
+    width: 400px;
+    height: 105px;
+}
+
+.login_container .logBx .logBx_form .input_group .mail_area , .password_area {
+    position: relative;
+    width: 400px;
+    height: 40px;
+    background: rgba(56, 58, 64, 1);
+    margin-bottom: 25px;
+}
+
+.login_container .logBx .logBx_form .input_group input {
+    position: absolute;
+    height: 40px;
+    width: 235px;
+    left: 123px;
+    outline: none;
+    background: none;
+    border: none;
+
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:rgba(255, 255, 255, 1);
+}
+
+.login_container .logBx .logBx_form .input_group .label {
+    position: absolute;
+    display: flex;
+    top: 12px;
+    left: 19px;
+    bottom: 11px;
+}
+
+.login_container .logBx .logBx_form .input_group .label p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(166, 167, 169, 1);
+    margin-left: 10px;
+
+}
+
+.login_container .logBx .logBx_form .input_group #vision_svg {
+    position: absolute;
+    top: 12px;
+    left: 367px;
+}
+
+.login_container .logBx .logBx_form .forgot_link {
+    position: absolute;
+    top: 384px;
+    left: 237px;
+
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-decoration: none;
+    color: rgba(226, 226, 227, 1);
+
+}
+
+.login_container .logBx .logBx_form .forgot_link::before {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: rgba(81, 84, 91, 1);
+}
+
+.login_container .logBx .log_btn {
+    position: absolute;
+    top: 448px;
+    left: 212px;
+    padding-left: 54px;
+    padding-right: 54px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    background: rgba(0, 198, 142, 1);
+    box-shadow: 0px 4px 15px rgba(0, 198, 142, 0.15);
+    border-radius: 27.5px;
+
+    text-decoration: none;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.login_container .logBx .login_title .log_megia_links svg {
+    margin-top: 25px;
+    margin-right: 20px;
+    width: 34px;
+    height: 34px;
+}
+
+.login_container .logBx .logBx_mask {
+    overflow: hidden;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    position: absolute;
+    right: 0;
+    width: 367px;
+    height: 100%;
+}
+
+.login_container .logBx .logBx_mask #logo2 {
+    position: absolute;
+    top: 90px;
+    right: 125px;
+    width: 77px;
+    height: 61px;
+}
+
+.login_container .logBx .logBx_mask .mask_logo_text {
+    position: absolute;
+    top: 161px;
+    right: 108px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.login_container .logBx .logBx_mask .mask_title {
+    position: absolute;
+    right: 48px;
+    top: 254px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.login_container .logBx .logBx_mask .mask_subtitle {
+    position: absolute;
+    top: 294px;
+    right: 57px;
+    width: 213px;
+    height: 32px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+}
+
+.login_container .logBx .logBx_mask .reg_link {
+    position: absolute;
+    top: 364px;
+    right: 64px;
+    width: 200px;
+    padding-top: 11px;
+    padding-bottom: 12px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(255, 255, 255, 1);
+    border-radius: 20px;
+
+    /*link text */
+    text-decoration: none;
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 450;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(255, 255, 255, 1);
+}
+
+
+  /* --------------------------REGISTRATION--------------------------------- */
+
+.reg_container {
+    position: absolute;
+    left: 508px;
+    top: 150px;
+}
+                
+.reg_container .regBx{
+    overflow: hidden;
+    width: 900px;
+    height: 560px;
+    border-radius: 8px;
+    background: rgba(56, 58, 64, 0.4);
+    backdrop-filter: blur(30px);
+}
+
+.reg_container .regBx .registration_title {
+    position: absolute;
+    width: 220px;
+    height: 103px;
+    left: 508px;
+    top: 65px;
+}
+
+.reg_container .regBx .registration_title h1 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.reg_container .regBx .registration_title .reg_megia_links {
+    position: absolute;
+    right: 40px;
+}
+
+.reg_container .regBx .registration_title .reg_megia_links svg{
+    margin-top: 25px;
+    margin-right: 20px;
+    width: 34px;
+    height: 34px;
+}
+
+.reg_container .regBx .regBx_form  {
+    width: 400px;
+    left: 415px;
+    margin-top: 198px;
+}
+
+
+.reg_container .regBx .regBx_form #reg_subtitle {
+    position: absolute;
+    top: 198px;
+    right: 139px;
+    width: 296px;
+
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(166, 167, 169, 1);
+}
+
+.reg_container .regBx .regBx_form .reg_input_group {
+    position: absolute;
+    top: 246px;
+    right: 85px;
+    width: 400px;
+    height: 105px;  
+}
+
+.reg_container .regBx .regBx_form .reg_input_group .name_area , .mail_area , .password_area {
+    position: relative;
+    width: 400px;
+    height: 40px;
+    background: rgba(56, 58, 64, 1);
+    margin-bottom: 25px;    
+    border-radius: 6px;
+}
+
+.reg_container .regBx .regBx_form .reg_input_group input {
+    position: absolute;
+    height: 40px;
+    width: 235px;
+    left: 123px;
+    outline: none;
+    background: none;
+    border: none;
+
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:rgba(255, 255, 255, 1);
+}
+
+.reg_container .regBx .regBx_form .reg_input_group .label {
+    position: absolute;
+    display: flex;
+    top: 12px;
+    left: 19px;
+    bottom: 11px;    
+}
+
+.reg_container .regBx .regBx_form .reg_input_group .label p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(166, 167, 169, 1);
+    margin-left: 10px; 
+}
+
+.reg_container .regBx .regBx_form .reg_input_group #vision_svg {
+    position: absolute;
+    top: 12px;
+    left: 367px;   
+}
+
+.reg_container .regBx .regBx_mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.reg_container .regBx .regBx_mask #logo2{
+    position: absolute;
+    left: 129px;
+    top: 90px;
+    width: 77px;
+    height: 61px;
+}
+
+.reg_container .regBx .regBx_mask .reg_mask_logo_text {
+    position: absolute;
+    margin-top: 10px;
+    left: 112px;
+    top: 161px;
+
+    font-family: 'Montserrat Alternates', sans-serif;;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.reg_container .regBx .regBx_mask .reg_mask_title {
+    position: absolute;
+    left: 51px;
+    top: 254px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);    
+}
+
+.reg_container .regBx .regBx_mask .reg_mask_subtitle {
+    position: absolute;
+    top: 294px;
+    left: 61px;
+    width: 213px;
+    height: 32px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);    
+}
+
+.reg_container .regBx .regBx_mask .log_link {
+    position: absolute;
+    top: 364px;
+    left: 87px;
+    width: 160px;
+    padding-top: 11px;
+    padding-bottom: 12px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(255, 255, 255, 1);
+    border-radius: 20px;
+
+    /*link text */
+    text-decoration: none;
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 450;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(255, 255, 255, 1);  
+}
+
+.reg_container .regBx .signup_btn {
+    position: absolute;
+    top: 467px;
+    right: 185px;
+    padding-left: 44px;
+    padding-right: 44px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    background: rgba(0, 198, 142, 1);
+    box-shadow: 0px 4px 15px rgba(0, 198, 142, 0.15);
+    border-radius: 27.5px;
+
+    text-decoration: none;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);    
+}
+
+                  /* --------------------------STATS--------------------------------- */
+
+.stats_container {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1280px;
+    height: 1044px;
+    left: 320px;
+    margin-top: 40px;
+}
+
+.stats_container .stats_menu {
+    display: flex;
+    justify-content: space-around;
+}
+
+.stats_container .stats_menu h1 {
+    position: absolute;
+    height: 44px;
+    left: 455px;
+
+
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.stats_container .stats_menu .stats_menu_link {
+    text-decoration: none;
+    width: 34px;
+    height: 34px;
+    background: rgba(56, 58, 64, 0.4);
+    border-radius: 4px;
+    padding: 5px;
+    margin-top: 8px;
+    margin-right: 16px;
+}
+
+.stats_container .stats_menu .right_menu_links {
+    display: flex;
+    position: absolute;
+    right: 0;
+}
+
+.stats_container .top_news_group {
+    margin-top: 40px;
+    display: flex;
+}
+
+.stats_container .top_news_group .top_news_block {
+    width: 400px;
+    height: 460px;
+    background: rgba(56, 58, 64, 0.4);
+    backdrop-filter: blur(30px);
+    margin-right: 40px;
+    margin-top: 40px;
+    border-radius: 8px;
+}
