@@ -1151,3 +1151,103 @@ body {
     margin-top: 40px;
     border-radius: 8px;
 }
+
+.stats_container .top_news_group .top_news_block .top_news_header {
+    display: flex;
+    padding-top: 22px;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.stats_container .top_news_group .top_news_block .top_news_header p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1)
+}
+
+.stats_container .top_news_group .top_news_block .top_news_header svg {
+    position: absolute;
+    right: 25px;
+    top: 25px;
+}
+
+
+
+
+                  /* --------------------------ACCOUNT--------------------------------- */
+
+.account_container {
+    position: absolute;
+    top: 121px;
+    left: 621px;
+    width: 979px;
+    height: 800px;
+
+    background: rgba(56, 58, 64, 0.4);
+    backdrop-filter: blur(30px);
+    border-radius: 8px;
+}
+
+.account_container .account_header {
+    position: absolute;
+    display: flex;
+}
+
+.account_container .account_header #account_svg {
+    position: absolute;
+    left: 40px;
+    top: 43px;
+    margin-right: 8px;
+}
+
+.account_container .account_header h1 {
+    position: absolute;
+    left: 72px;
+    top: 40px;
+
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.account_container .log_out_btn {
+    position: absolute;
+    left: 200px;
+    top: 40px;
+    width: 100px;
+    height: 30px;
+
+    border: 1px solid #D74040;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 15px rgba(215, 64, 64, 0.15));
+    border-radius: 4px;
+}
+
+.account_container .log_out_btn .log_out_link {
+    position: absolute;
+    top: 6px;
+    left: 17px;
+
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 450;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(215, 64, 64, 1);
+}
+
+.account_container .log_out_btn svg {
+    position: absolute;
+    top: 6px;
+    left: 66px;
+}
