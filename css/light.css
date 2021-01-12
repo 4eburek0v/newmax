@@ -581,6 +581,759 @@ body {
     
     }
 
+
+                      /* --------------------------NEWS PAGE--------------------------------- */
+
+.news_page_content {
+    position: absolute;
+    left: 320px;
+    top: 121px;
+    width: 1280px;
+}
+
+.news_page_content .left_tab {
+    width: 260px;
+    min-height: 1524px;
+    margin-left: 40px;
+}
+
+.news_page_content .left_tab .covid_block, .weather_block , .exchange_rates_block, .any_block {
+    margin-bottom: 30px;
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-left: 25px;
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(30px);
+    border-radius: 8px;
+}
+
+
+
+.news_page_content .left_tab .left_tab_block_header {
+    display: flex;
+    position: relative;
+}
+
+.news_page_content .left_tab .left_tab_block {
+    position: relative;
+}
+
+.news_page_content .left_tab .left_tab_block .left_tab_block_content {
+    margin-top: 19px;
+    display: flex;
+}
+
+.news_page_content .left_tab .left_tab_block .left_tab_block_content .left_content_right {
+    width: 50%;
+}
+
+.news_page_content .left_tab .left_tab_block .left_tab_block_content .left_content_left {
+    width: 50%;
+}
+
+.news_page_content .left_tab .left_tab_block .left_tab_block_content .main_left_text {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(152, 160, 166, 1);
+    padding-top: 32px;
+}
+
+
+.news_page_content .left_tab .left_tab_block .left_tab_block_content .main_right_text {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(81, 92, 100, 1);
+    margin-top: 17px;
+    margin-left: 35px;
+}
+
+.news_page_content .left_tab .left_tab_block .left_tab_block_content .sub_right_text {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(166, 167, 169, 1);
+    margin-left: 35px;
+} 
+
+.weather_block .left_content_right svg {
+    position: absolute;
+    margin-top: 17px;
+}
+
+.news_page_content .left_tab .left_tab_block_header .left_tab_block_title {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0em;
+    margin-left: 12px;
+    color: rgba(81, 92, 100, 1);
+
+
+}
+
+.news_page_content .left_tab .left_tab_block_subtitle {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    color: #A6A7A9;
+}
+
+.news_page_content .left_tab .covid_block , .weather_block , .any_block {
+    background: rgba(255, 255, 255, 0.7);
+    width: 260px;
+    height: 274px;
+}
+
+.news_page_content .left_tab .exchange_rates_block {
+    background: rgba(255, 255, 255, 0.7);
+    height: 378px;
+}
+
+.news_page_content .left_tab .left_tab_block_header #main_icon {
+    margin-top: 1px;
+}
+
+.news_page_content .left_tab .left_tab_block_header #icon {
+    position: absolute;
+    margin-top: 10px;
+    right: 20px;
+}
+
+.news_page_content .left_tab .arrow_icon {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 10px;
+}
+
+.news_page_content .read_news_block {
+    position: absolute;
+    top: 0;
+    left: 300px;
+    width: 980px;
+    height: 1468px;
+    margin-left: 40px;
+}
+
+.news_page_content .read_news_block .read_section {
+    width: 980px;
+    height: 725px;
+    margin-bottom: 30px;
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(30px);
+    border-radius: 8px;
+}
+
+.news_page_content .read_news_block .read_section .read_section_header {
+    width: 900px;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+.news_page_content .read_news_block .read_section .read_section_header #top_subtitle {
+    margin-bottom: 10px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(166, 167, 169, 1);
+}
+
+.news_page_content .read_news_block .read_section .read_section_header #title {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(58, 66, 102, 1);
+}
+
+.news_page_content .read_news_block .read_section .read_section_header .header_stats {
+    display: flex;
+}
+
+.news_page_content .read_news_block .read_section .read_section_header .header_stats .rating {
+    position: relative;
+    display: flex;
+    margin-top: 10px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.news_page_content .read_news_block .read_section .read_section_header .header_stats .rating svg{
+    margin-right: 3px;
+}
+
+
+.news_page_content .read_news_block .read_section .read_section_header .header_stats .rating #rating_top {
+    color: rgba(3, 184, 152, 1);
+    margin-right: 11px;
+}
+
+.news_page_content .read_news_block .read_section .read_section_header .header_stats .rating #rating_down {
+    color: rgba(243, 56, 112, 1);
+}
+
+.news_page_content .read_news_block .read_section .read_section_header .header_stats .rating::before {
+    position: absolute;
+    content: '';
+    width: 100px;
+    height: 2px;
+    left: 0;
+    bottom: -4px;
+    background: rgba(229, 237, 242, 1);
+}
+
+.news_page_content .read_news_block .read_section .read_section_header .header_stats .rating::after {
+    position: absolute;
+    content: '';
+    width: 83px;
+    height: 2px;
+    left: 0;
+    bottom: -4px;
+    background: rgba(3, 184, 152, 1);
+}
+
+.news_page_content .read_news_block .read_section .read_section_header .header_stats .views {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.news_page_content .read_news_block .read_section .read_section_header .header_stats .views p {
+    margin-top: 3px;
+    margin-left: 6px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    color:rgba(166, 167, 169, 1)
+}
+
+.news_page_content .read_news_block .read_section .read_section_content {
+    position: relative;
+    margin-top: 30px;
+    margin-left: 40px;
+    width: 900px;
+    height: 369px;
+}
+
+.news_page_content .read_news_block .read_section .read_section_content .content_section_1 p {
+    width: 442px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(81, 92, 100, 1);
+    margin-bottom: 15px;
+}
+
+.news_page_content .read_news_block .read_section .read_section_content .content_section_2 {
+    margin-top: 36px;
+}
+
+.news_page_content .read_news_block .read_section .read_section_content .content_section_2 p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(81, 92, 100, 1);
+    margin-bottom: 15px;
+}
+
+.news_page_content .read_news_block .read_section .read_section_content .content_img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 428px;
+    height: 240px;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0px 0px 1px rgba(34, 37, 42, 0.12), 0px 4px 6px rgba(12, 15, 19, 0.06);
+}
+
+.news_page_content .read_news_block .read_section .read_section_content .content_img img {
+    width: 100%;
+}
+
+.news_page_content .read_news_block .read_section .read_section_marks {
+    position: absolute;
+    top: 626px;
+    left: 40px
+}
+
+
+.news_page_content .read_news_block .read_section .read_section_marks .author {
+    display: flex;
+}
+
+.news_page_content .read_news_block .read_section .read_section_marks .author p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(81, 92, 100, 1);
+}
+
+.news_page_content .read_news_block .read_section .read_section_marks .author a {
+    margin-left: 5px;
+    font-family: 'Nunito Sans', sans-serif;
+    text-decoration: none;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(81, 92, 100, 1);
+}
+
+.news_page_content .read_news_block .read_section .read_section_marks .read_marks_group {
+    margin-top: 20px;
+    display: flex;
+}
+
+.news_page_content .read_news_block .read_section .read_section_marks .read_marks_group .up_btn {
+    outline: none;
+    width: 80px;
+    height: 22px;
+    background: rgba(3, 184, 152, 0.1);
+    border: none;
+    border-radius: 3px;
+    margin-right: 8px;
+}
+
+.news_page_content .read_news_block .read_section .read_section_marks .read_marks_group .down_btn {
+    outline: none;
+    width: 80px;
+    height: 22px;
+    background:rgba(243, 56, 112, 0.1);
+    border: none;
+    border-radius: 3px;
+}
+
+.news_page_content .read_news_block .read_section .read_section_marks .read_marks_group .share_link, .share_post {
+    outline: none;
+    background: none;
+    border: none;
+    margin-right: 15px;
+}
+
+.news_page_content .read_news_block .read_section .read_section_marks .read_marks_group .share_link {
+    margin-left: 25px;
+}
+
+.news_page_content .read_news_block .comments_section {
+    width: 980px;
+    height: 713px;
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(30px);
+    border-radius: 8px;
+}
+
+.news_page_content .read_news_block .comments_section .comments_section_header {
+    position: relative;
+    display: flex;
+    width: 900px;
+    padding-top: 40px;
+    padding-left: 40px;
+
+}
+
+.news_page_content .read_news_block .comments_section .comments_section_header h1 {
+    font-family: 'Nunito Sans', sans-serif;
+    margin-right: 10px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(58, 66, 102, 1);
+}
+
+.news_page_content .read_news_block .comments_section .comments_section_header p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(58, 66, 102, 1);
+}
+
+.news_page_content .read_news_block .comments_section .comments_section_header .sort {
+    position: absolute;
+    right: 0;
+    display: flex;
+    background: none;
+    border: none;
+    outline: none;
+
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(58, 66, 102, 1);
+}
+
+.news_page_content .read_news_block .comments_section .comments_section_header .sort p {
+    padding-top: 5px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(58, 66, 102, 1);
+}
+
+.news_page_content .read_news_block .comments_section .comments_section_header .sort svg path {
+    fill:rgba(81, 92, 100, 1);
+}
+
+.news_page_content .read_news_block .comments_section .new_comment {
+    display: flex;
+    width: 900px;
+    margin-top: 29px;
+    margin-left: 40px;
+}
+
+.news_page_content .read_news_block .comments_section .new_comment .avatar_medium {
+    width: 35px;
+    height: 35px;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0px -1px 2px rgba(0, 0, 0, 0.05), 0px 4px 10px rgba(34, 37, 42, 0.1);
+}
+
+.news_page_content .read_news_block .comments_section .new_comment .avatar_medium img {
+    width: 100%;
+}
+
+.news_page_content .read_news_block .comments_section .new_comment .comment_input {
+    width: 845px;
+    margin-left: 20px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgba(204, 212, 219, 1);
+    outline: none;
+    
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(152, 160, 166, 1);
+}
+
+.news_page_content .all_comments {
+    position: absolute;
+    top: 147px;
+    left: 40px;
+    width: 900px;
+}
+
+.news_page_content .all_comments .comment {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 900px;
+    margin-bottom: 30px;
+    display: flex;
+}
+
+.news_page_content .all_comments .comment .avatar_medium {
+    top: 0;
+    left: 0;
+}
+
+.news_page_content .all_comments .comment .comment_body {
+    position: relative;
+    top: 0px;
+    left: 50px;
+}
+
+.news_page_content .all_comments .comment .comment_body .comment_title {
+    display: flex;
+    margin-bottom: 8px;
+}
+
+.news_page_content .all_comments .comment .comment_body .comment_title p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    margin-right: 8px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(58, 66, 102, 1);
+}
+
+.news_page_content .all_comments .comment .comment_body .comment_title svg {
+    margin-top: 2px;
+    margin-right: 8px;
+}
+
+.news_page_content .all_comments .comment .comment_body .comment_title #title_info {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 12px;
+    margin-top: 3px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(166, 167, 169, 1);
+}
+
+.news_page_content .all_comments .comment .comment_body .comment_content {
+    width: 850px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: justify;
+    color: rgba(81, 92, 100, 1);
+}
+
+.news_page_content .all_comments .comment .comment_body .comment_marks {
+    margin-top: 10px;
+    display: flex;
+}
+
+.news_page_content .all_comments .comment .comment_body .comment_marks p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    margin-right: 5px;
+}
+
+.news_page_content .all_comments .comment .comment_body .comment_marks svg {
+    margin-top: 2px;
+}
+
+.news_page_content .all_comments .comment .comment_body .comment_marks .response_link {
+    text-decoration: none;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(166, 167, 169, 1);
+    margin-left: 15px;
+}
+
+.news_page_content .all_comments .requests {
+    outline: none;
+    margin-left: 85px;
+    display: flex;
+    background: none;
+    border: none;
+    margin-bottom: 11px;
+    margin-top: -10px;
+}
+
+.news_page_content .all_comments .requests p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(56, 176, 243, 1);
+    margin-left: 6px;
+    padding-top: 3px;
+}
+
+.news_page_content .all_comments .requests_section {
+    position: relative;
+    left: 85px;
+}
+
+.news_page_content .all_comments .requests_section .avatar_small {
+    margin-right: 12px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.news_page_content .all_comments .requests_section .comment {
+    margin-bottom: 20px;
+}
+
+.news_page_content .all_comments .requests_section .comment_body {
+    margin-left: -10px;
+    width: 823px;
+    text-align: justify;
+}
+
+.news_page_content .all_comments .requests_section .comment_body .comment_title p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.news_page_content .all_comments .requests_section .comment_body .comment_content {
+    width: 823px;
+}
+
+                  /* --------------------------FOOTER--------------------------------- */
+
+.footer {
+    display: flex;
+    top: 2445px;
+    position: absolute;
+    margin-top: 50px;
+    height: 130px;
+    width: 100%;
+    background: #292C32;
+}
+
+.footer .social_media_links {
+    position: absolute;
+    left: 400px;
+    top: 35px;
+}
+
+.footer .social_media_links p {
+    color: rgba(166, 167, 169, 1);
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    margin-bottom: 9px;
+}
+
+.footer .social_media_links .footer_social_link {
+    text-decoration: none;
+    margin-right: 22px;
+}
+
+.footer .aditional_links_group {
+    position: absolute;
+    left: 702px;
+    top: 54px;
+}
+
+.footer .aditional_links_group .footer_aditional_link {
+    color: rgba(166, 167, 169, 1);
+    text-decoration: none;
+    margin-right: 30px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.footer .footer_langbox {
+    position: absolute;
+    left: 1460px;
+    top: 53px;
+}
+
+.footer .footer_langbox .lang_link {
+    font-family: 'Nunito Sans', sans-serif;
+    margin-left: 20px;
+    top: 27px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #A6A7A9;
+}
+
+.footer .footer_langbox .lang_link_active {
+    margin-left: 20px;
+    top: 27px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #03B898;
+}
+
+.footer .watermark {
+    position: absolute;
+    top: 104px;
+    left: 879px;
+    color: rgba(123, 128, 143, 1);
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
                      /* --------------------------LOGIN--------------------------------- */
 
 .login_container {
@@ -1081,4 +1834,702 @@ body {
     letter-spacing: 0em;
     text-align: left;
     color: rgba(255, 255, 255, 1);    
+}
+
+
+                /* --------------------------STATS--------------------------------- */
+                  /* --------------------------STATS--------------------------------- */
+
+.stats_container {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1280px;
+    height: 1044px;
+    left: 320px;
+    margin-top: 40px;
+}
+
+.stats_container .stats_menu {
+    display: flex;
+    justify-content: space-around;
+}
+
+.stats_container .stats_menu h1 {
+    position: absolute;
+    height: 44px;
+    left: 455px;
+
+
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(58, 66, 102, 1);
+
+}
+
+.stats_container .stats_menu .stats_menu_link {
+    text-decoration: none;
+    width: 34px;
+    height: 34px;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 4px;
+    padding: 5px;
+    margin-top: 8px;
+    margin-right: 16px;
+}
+
+.stats_container .stats_menu .stats_menu_link svg path {
+    fill: rgba(58, 66, 102, 1);
+}
+
+.stats_container .stats_menu .right_menu_links {
+    display: flex;
+    position: absolute;
+    right: 0;
+}
+
+.stats_container .top_news_group {
+    margin-top: 40px;
+    display: flex;
+}
+
+.stats_container .top_news_group .top_news_block {
+    position: relative;
+    width: 400px;
+    height: 460px;
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(30px);
+    margin-right: 40px;
+    margin-top: 40px;
+    border-radius: 8px;
+}
+
+.stats_container .top_news_group .top_news_block .top_news_header {
+    display: flex;
+    padding-top: 22px;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.stats_container .top_news_group .top_news_block .top_news_header p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(81, 92, 100, 1);
+}
+
+.stats_container .top_news_group .top_news_block .top_news_header svg {
+    position: absolute;
+    right: 25px;
+    top: 25px;
+}
+
+.stats_container .top_news_group .top_news_block .top_news_subtitle {
+    position: absolute;
+    display: flex;
+    left: 0;
+    top: 67px;
+
+}
+
+.stats_container .top_news_group .top_news_block .top_news_subtitle p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(166, 167, 169, 1);
+}
+
+.stats_container .top_news_group .top_news_block .top_news_subtitle #sub_number {
+    margin-left: 30px;
+    margin-right: 40px;
+}
+
+.stats_container .top_news_group .top_news_block .top_news_subtitle #sub_news {
+    width: 235px;
+}
+
+.stats_container .top_news_group .top_news_block .top_news_block_content {
+    position: absolute;
+    left: 0;
+    top: 101px;
+    width: 400px;
+    height: 344px;
+    overflow-y: scroll;
+}
+
+.stats_container .top_news_group .top_news_block .top_news_block_content table {
+    left: 0;
+    width: 394px;
+    border-spacing: 0;
+}
+
+.stats_container .top_news_group .top_news_block .top_news_block_content table tr:nth-child(even) {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    height: 85px;
+    width: 394px;
+    color: rgba(81, 92, 100, 1);
+    background: rgba(244, 246, 249, 1);
+}
+
+.stats_container .top_news_group .top_news_block .top_news_block_content table tr:nth-child(odd) {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    height: 85px;
+    width: 394px;
+    color: rgba(81, 92, 100, 1);
+}
+
+.stats_container .top_news_group .top_news_block .top_news_block_content table #tb_number p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-left: 25px;
+    margin-right: 30px;
+    border: 1px solid rgba(81, 84, 91, 1);
+    border-radius: 50%;
+}
+
+.stats_container .top_news_group .top_news_block .top_news_block_content table #tb_news p {
+    width: 222px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(81, 92, 100, 1);
+}   
+
+.stats_container .top_news_group .top_news_block .top_news_block_content table #tb_points p {
+    width: 34px;
+    margin-right: 37px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(81, 92, 100, 1);
+}
+
+.stats_container .top_news_group .top_news_block .top_news_block_content table #tb_user {
+    display: flex;
+}
+
+.stats_container .top_news_group .top_news_block .top_news_block_content table #tb_user p {
+    width: 200px;
+    margin-left: 10px;
+    margin-top: 36px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 17px;
+    letter-spacing: 0em;
+    color: rgba(81, 92, 100, 1);
+}  
+
+.stats_container .top_news_group .top_news_block .top_news_block_content table #tb_user_number p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 7px;
+    padding-left: 7px;
+    margin-left: 20px;
+    margin-right: 30px;
+    border: 1px solid rgba(81, 84, 91, 1);
+    border-radius: 50%;
+}
+
+.stats_container .top_news_group .top_news_block .top_news_block_content table .stats_avatar {
+    width: 35px;
+    height: 35px;
+    overflow:hidden;
+    margin-top: 25px;
+    border-radius: 6px;    
+}
+
+.stats_container .top_news_group .top_news_block .top_news_block_content table .stats_avatar img {
+    width: 100%;
+}
+
+.stats_container .top_news_group .top_news_block .top_news_block_content::-webkit-scrollbar {
+    background: none;
+    width: 6px;
+}
+
+
+
+.stats_container .top_news_group .top_news_block .top_news_block_content::-webkit-scrollbar-thumb {
+    background: rgba(123, 128, 143, 1);
+    border-radius: 4px;
+}
+                 /* --------------------------ACCOUNT--------------------------------- */
+
+.account_container {
+    position: absolute;
+    top: 121px;
+    left: 621px;
+    width: 979px;
+    height: 800px;
+
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(30px);
+    border-radius: 8px;
+}
+
+.account_container .account_header {
+    position: absolute;
+    display: flex;
+}
+
+.account_container .account_header #account_svg {
+    position: absolute;
+    left: 40px;
+    top: 43px;
+    margin-right: 8px;
+}
+
+.account_container .account_header h1 {
+    position: absolute;
+    left: 72px;
+    top: 40px;
+
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(58, 66, 102, 1);
+}
+
+.account_container .account_header svg path{
+    fill: rgba(58, 66, 102, 1);
+}
+
+.account_container .log_out_btn {
+    position: absolute;
+    left: 200px;
+    top: 40px;
+    width: 100px;
+    height: 30px;
+
+    border: 1px solid #D74040;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 15px rgba(215, 64, 64, 0.15));
+    border-radius: 4px;
+}
+
+.account_container .log_out_btn .log_out_link {
+    position: absolute;
+    top: 6px;
+    left: 17px;
+
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 450;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(215, 64, 64, 1);
+}
+
+.account_container .log_out_btn svg {
+
+    position: absolute;
+    top: 6px;
+    left: 66px;
+}
+
+.account_container .log_out_btn svg path {
+    fill: rgba(215, 64, 64, 1);
+}
+
+.account_container .account_menu .account_menu_links {
+    display: flex;
+    position: absolute;
+    top: 90px;
+    left: 40px;
+}
+
+.account_container .account_menu .account_menu_links .account_menu_link {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-align: left;
+    color: rgba(166, 167, 169, 1);
+    margin-right: 30px;
+}
+
+.account_container .account_menu .account_menu_links .account_menu_link_active {
+    color: rgba(58, 66, 102, 1);
+}
+
+.account_container .account_menu .account_menu_links .account_menu_link_active::before {
+    position: absolute;
+    content: '';
+    bottom: -6px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 1px;
+    background: rgba(81, 84, 91, 1);
+}
+
+
+.account_container .settingsBx {
+    position: absolute;
+    /* display: none; */
+    top: 163px;
+    left: 40px;
+    width: 401px;
+    height: 607px;
+}
+
+.account_container .settingsBx .avatar_settings {
+    display: flex;
+}
+
+.account_container .settingsBx .avatar_settings p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(166, 167, 169, 1);
+    margin-left: 10px;
+}
+
+.avatar {
+    position: absolute;
+    border-radius: 8px;
+    object-fit: contain;
+    overflow: hidden;
+}
+
+.avatar img {
+    width: 100%;    
+}
+
+.avatar_large {
+    top: 30px;
+    width: 80px;
+    height: 80px;
+}
+
+.avatar_medium {
+    top: 75px;
+    left: 90px;
+    width: 35px;
+    height: 35px;
+}
+
+.avatar_small {
+    top: 90px;
+    left: 135px;
+    width: 20px;
+    height: 20px;
+}
+
+.avatar_settings .change_avatar_link {
+    position: absolute;
+    top: 130px;
+
+    text-decoration: none;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    color: rgba(81, 84, 91, 1);
+
+    border: 1px dashed rgba(81, 84, 91, 1);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.settingsBx .person_settings {
+    position: absolute;
+    top: 200px;
+}
+
+.settingsBx .person_settings .name_input , .mail_input {
+    position: relative;
+    width: 400px;
+    height: 40px;
+    border: 1px solid rgba(3, 184, 152, 1);
+    border-radius: 6px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 1px rgba(34, 37, 42, 0.12), 0px 4px 6px rgba(12, 15, 19, 0.06);
+}
+
+.settingsBx .person_settings input {
+    position: absolute;
+    top: 11px;
+    left: 20px;
+    width: 325px;
+    background: none;
+    border: none;
+    outline: none;
+    color: rgba(3, 184, 152, 1);
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.settingsBx .person_settings svg { 
+    position: absolute;
+    top: 4px;
+    right: 7px;  
+}
+
+.settingsBx .password_settings {
+    position: absolute;
+    top: 340px;
+}
+
+.settingsBx .password_settings h1 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:  rgba(58, 66, 102, 1);
+    margin-bottom: 17px;
+}
+
+.settingsBx .password_settings .password_input {
+    position: relative;
+    display: flex;
+    width: 400px;
+    height: 40px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    background: rgba(244, 246, 249, 1);
+    box-shadow: 0px 0px 1px rgba(34, 37, 42, 0.12), 0px 4px 6px rgba(12, 15, 19, 0.06);
+}
+
+.settingsBx .password_settings .password_input #password {
+    position: absolute;
+    top: 12px;
+    left: 19px;
+}
+
+.settingsBx .password_settings .password_input #not_visible {
+    position: absolute;
+    top: 11px;
+    left: 367px;
+}
+
+.settingsBx .password_settings .password_input input {
+    position: absolute;
+    top: 12px;
+    left: 44px;
+    width: 75%;
+    background: none;
+    border: none;
+    outline: none;
+
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(166, 167, 169, 1);
+}
+
+.settingsBx .save_changes {
+    position: absolute;
+    top: 565px;
+    padding-left: 29px;
+    padding-right: 29px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background: rgba(0, 198, 142, 1);
+    box-shadow: 0px 4px 15px rgba(0, 198, 142, 0.15);
+    border-radius: 4px;
+    border: none;
+
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.account_container .commentsBx {
+    display: none;
+    position: absolute;
+    top: 135px;
+    left: 40px;
+    width: 900px;
+    height: 333px;
+}
+
+.account_container .commentsBx .comment {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 900px;
+    margin-bottom: 30px;
+    display: flex;
+}
+
+.account_container .commentsBx .comment .avatar_medium {
+    top: 0;
+    left: 0;
+}
+
+.account_container .commentsBx .comment .comment_body {
+    position: relative;
+    top: 0px;
+    left: 50px;
+}
+
+.account_container .commentsBx .comment .comment_body .comment_title {
+    display: flex;
+}
+
+.account_container .commentsBx .comment .comment_body .comment_title p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(58, 66, 102, 1);
+}
+
+.account_container .commentsBx .comment .comment_body .comment_title svg {
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 2px;
+}
+
+.account_container .commentsBx .comment .comment_body .comment_title #title_info {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(166, 167, 169, 1);
+}
+
+.account_container .commentsBx .comment .comment_body .comment_content {
+    width: 850px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: justify;
+    color: rgba(152, 160, 166, 1);
+}
+
+.account_container .commentsBx .comment .comment_body .comment_marks {
+    margin-top: 10px;
+    display: flex;
+}
+
+.account_container .commentsBx .comment .comment_body .comment_marks p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(58, 66, 102, 1);
+    margin-right: 5px;
+}
+
+.account_container .commentsBx .comment .comment_body .comment_marks svg {
+    margin-top: 2px;
+}
+
+.account_container .commentsBx .comment .comment_body .comment_marks .response_link {
+    text-decoration: none;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(166, 167, 169, 1);
+    margin-left: 15px;
 }
